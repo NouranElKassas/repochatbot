@@ -37,6 +37,8 @@
 - I am great
 - I'm good
 - Fine
+- i'm happy
+- fine
 
 ## intent:mood_unhappy
 - sad
