@@ -1,3 +1,5 @@
+setuptools==41.0.0
+prompt-toolkit==2.0.10
 absl-py==0.9.0
 aiofiles==0.5.0
 aiohttp==3.6.2
@@ -56,10 +58,6 @@ Keras-Preprocessing==1.1.0
 kiwisolver==1.2.0
 Markdown==3.1.1
 matplotlib==3.2.1
-mattermostwrapper==2.2
-mkl-fft==1.0.15
-mkl-random==1.1.0
-mkl-service==2.3.0
 multidict==4.7.5
 networkx==2.4
 numpy==1.18.1
@@ -68,8 +66,6 @@ oauthlib==3.1.0
 opt-einsum==3.1.0
 packaging==19.0
 pika==1.1.0
-prompt-toolkit==2.0.10
-protobuf==3.11.4
 psycopg2-binary==2.8.5
 pyasn1==0.4.8
 pyasn1-modules==0.2.7
