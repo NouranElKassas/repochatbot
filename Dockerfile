@@ -1,8 +1,9 @@
-FROM ubuntu:16.04
+FROM rasa/rasa:1.10.2-full
 
-ENV LANG C.UTF-8
+WORKDIR /app
 
-RUN apt-get update
-RUN apt install -y python3-dev python3-pip
-RUN pip3 install -U pip3
-RUN pip3 install rasa
+COPY . /app
+
+EXPOSE 5005
+
+CMD ["run", "--cors", "*", "--debug"]
