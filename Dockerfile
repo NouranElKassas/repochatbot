@@ -6,4 +6,4 @@ COPY . /app
 
 EXPOSE 5005
 
-CMD ["run", "--cors", "*", "--debug"]
+CMD ["rasa", "run", "--cors", "*", "--debug"]
